@@ -1,0 +1,16 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+
+@theme {
+  --color-primary: #1f2125;
+  --color-secondary: #2ca4ab;
+
+  --shadow-custom: 0px 4px 25px rgba(0, 0, 0, 0.8);
+}
+
+body {
+  background-color: var(--color-primary);
+  color: white;
+
+  font-family: "Figree", sans-serif;
+}
