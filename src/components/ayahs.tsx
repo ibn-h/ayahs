@@ -9,7 +9,9 @@ function Ayahs() {
         (In the Name of Allah—the Most Compassionate, Most Merciful.)
       </div>
       <button className="bg-primary text-white w-12 h-12 rounded-full text-xl cursor-pointer font-medium shadow-custom hover:bg-secondary transition-colors duration-300">
-        <i className="fa-solid fa-arrow-right flex items-center justify-center"></i>
+        <div className="flex items-center justify-center h-full">
+          <i className="fa-solid fa-arrow-right text-2xl"></i>
+        </div>
       </button>
     </div>
   );
